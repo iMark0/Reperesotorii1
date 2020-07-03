@@ -177,6 +177,10 @@ public class Main {
             return res;
         }
 
+        @Override
+        public String toString() {
+            return Integer.toString(mValue);
+        }
     }
 
 }
